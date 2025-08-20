@@ -264,5 +264,5 @@ function generateRandomUrl(downloadLink) {
         'purple-glitter-924b.miguelalocal'
     ];
     const selectedBaseUrl = baseUrls[Math.floor(Math.random() * baseUrls.length)];
-    return `https://${selectedBaseUrl}.blogspot.com/?url=${encodeUrl(downloadLink)}`;
+    return `https://${selectedBaseUrl}.workers.dev/?url=${encodeUrl(downloadLink)}`;
 }
